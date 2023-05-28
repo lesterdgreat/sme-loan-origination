@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.common-button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+}
+
+.common-button:hover {
+  border: none;
+  background: none;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+}
+
+.common-button.subscribe {
+  border: none;
+  background: none;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+}
+
+/** navs*/
+.color-nav {
+  background-image: linear-gradient(180deg, #dd65b3, #C2338F);
+}
+
+.nav-pills li a:hover {
+  background-color: #9b2872;
+}
+
+.nav-pills li a:active {
+  background-color: #9b2872;
+}
+
+.linkText {
+  color: whitesmoke;
+  font-weight: 500;
+}
+
+footer {
+  background-image: linear-gradient(180deg, #dd65b3, #C2338F);
+}
+
+.paginationBtn {
+  color: white;
+  background-color: #C99AF7;
+  float: right;
+  border: 2px solid #a07bc5;
+}
